@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-15T17:03:57 IST" name="Default suite" finished-at="2023-07-15T17:04:31 IST" duration-ms="34281">
+    <groups>
+    </groups>
+    <test started-at="2023-07-15T17:03:57 IST" name="Default test" finished-at="2023-07-15T17:04:31 IST" duration-ms="34281">
+      <class name="com.test.GoogleTranslateTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.GoogleTranslateTest@d86a6f]" started-at="2023-07-15T17:03:57 IST" name="setUp" finished-at="2023-07-15T17:04:02 IST" duration-ms="5599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testTranslation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.test.GoogleTranslateTest@d86a6f]" started-at="2023-07-15T17:04:03 IST" name="testTranslation" data-provider="excelData" finished-at="2023-07-15T17:04:09 IST" duration-ms="5710" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test 1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Good Morning]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Buen día]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTranslation -->
+        <test-method signature="testTranslation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.test.GoogleTranslateTest@d86a6f]" started-at="2023-07-15T17:04:09 IST" name="testTranslation" data-provider="excelData" finished-at="2023-07-15T17:04:14 IST" duration-ms="5484" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test 2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Good Night]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Buenas noches]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTranslation -->
+        <test-method signature="testTranslation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.test.GoogleTranslateTest@d86a6f]" started-at="2023-07-15T17:04:14 IST" name="testTranslation" data-provider="excelData" finished-at="2023-07-15T17:04:20 IST" duration-ms="5460" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test 3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[I love you]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Te amo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTranslation -->
+        <test-method signature="testTranslation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.test.GoogleTranslateTest@d86a6f]" started-at="2023-07-15T17:04:20 IST" name="testTranslation" data-provider="excelData" finished-at="2023-07-15T17:04:25 IST" duration-ms="5457" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test 4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[How are you?]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[¿Cómo estás?]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTranslation -->
+        <test-method signature="testTranslation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.test.GoogleTranslateTest@d86a6f]" started-at="2023-07-15T17:04:25 IST" name="testTranslation" data-provider="excelData" finished-at="2023-07-15T17:04:31 IST" duration-ms="5444" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test 5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Thank you]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Gracias]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTranslation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.GoogleTranslateTest@d86a6f]" started-at="2023-07-15T17:04:31 IST" name="tearDown" finished-at="2023-07-15T17:04:31 IST" duration-ms="367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.GoogleTranslateTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
